@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.chess {
+  width: 600px;
+  height: 600px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .chess > span.heng {
+    position: absolute;
+    left: 15px;
+    width: 570px;
+    height: 1px;
+    background: orangered; }
+  .chess > i.shu {
+    position: absolute;
+    top: 15px;
+    height: 570px;
+    width: 1px;
+    background: aqua; }
+  .chess > span.heng:nth-of-type(1) {
+    top: 15px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 100ms; }
+  .chess > i.shu:nth-of-type(1) {
+    left: 15px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 100ms; }
+  .chess > span.heng:nth-of-type(2) {
+    top: 45px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 200ms; }
+  .chess > i.shu:nth-of-type(2) {
+    left: 45px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 200ms; }
+  .chess > span.heng:nth-of-type(3) {
+    top: 75px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 300ms; }
+  .chess > i.shu:nth-of-type(3) {
+    left: 75px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 300ms; }
+  .chess > span.heng:nth-of-type(4) {
+    top: 105px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 400ms; }
+  .chess > i.shu:nth-of-type(4) {
+    left: 105px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 400ms; }
+  .chess > span.heng:nth-of-type(5) {
+    top: 135px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 500ms; }
+  .chess > i.shu:nth-of-type(5) {
+    left: 135px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 500ms; }
+  .chess > span.heng:nth-of-type(6) {
+    top: 165px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 600ms; }
+  .chess > i.shu:nth-of-type(6) {
+    left: 165px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 600ms; }
+  .chess > span.heng:nth-of-type(7) {
+    top: 195px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 700ms; }
+  .chess > i.shu:nth-of-type(7) {
+    left: 195px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 700ms; }
+  .chess > span.heng:nth-of-type(8) {
+    top: 225px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 800ms; }
+  .chess > i.shu:nth-of-type(8) {
+    left: 225px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 800ms; }
+  .chess > span.heng:nth-of-type(9) {
+    top: 255px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 900ms; }
+  .chess > i.shu:nth-of-type(9) {
+    left: 255px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 900ms; }
+  .chess > span.heng:nth-of-type(10) {
+    top: 285px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1000ms; }
+  .chess > i.shu:nth-of-type(10) {
+    left: 285px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1000ms; }
+  .chess > span.heng:nth-of-type(11) {
+    top: 315px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1100ms; }
+  .chess > i.shu:nth-of-type(11) {
+    left: 315px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1100ms; }
+  .chess > span.heng:nth-of-type(12) {
+    top: 345px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1200ms; }
+  .chess > i.shu:nth-of-type(12) {
+    left: 345px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1200ms; }
+  .chess > span.heng:nth-of-type(13) {
+    top: 375px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1300ms; }
+  .chess > i.shu:nth-of-type(13) {
+    left: 375px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1300ms; }
+  .chess > span.heng:nth-of-type(14) {
+    top: 405px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1400ms; }
+  .chess > i.shu:nth-of-type(14) {
+    left: 405px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1400ms; }
+  .chess > span.heng:nth-of-type(15) {
+    top: 435px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1500ms; }
+  .chess > i.shu:nth-of-type(15) {
+    left: 435px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1500ms; }
+  .chess > span.heng:nth-of-type(16) {
+    top: 465px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1600ms; }
+  .chess > i.shu:nth-of-type(16) {
+    left: 465px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1600ms; }
+  .chess > span.heng:nth-of-type(17) {
+    top: 495px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1700ms; }
+  .chess > i.shu:nth-of-type(17) {
+    left: 495px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1700ms; }
+  .chess > span.heng:nth-of-type(18) {
+    top: 525px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1800ms; }
+  .chess > i.shu:nth-of-type(18) {
+    left: 525px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1800ms; }
+  .chess > span.heng:nth-of-type(19) {
+    top: 555px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1900ms; }
+  .chess > i.shu:nth-of-type(19) {
+    left: 555px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 1900ms; }
+  .chess > span.heng:nth-of-type(20) {
+    top: 585px;
+    transform: translate(-2000px, 0);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 2000ms; }
+  .chess > i.shu:nth-of-type(20) {
+    left: 585px;
+    transform: translate(0, -2000px);
+    animation: fadeIn 1s ease-in-out 1 forwards;
+    animation-delay: 2000ms; }
+
+@keyframes fadeIn {
+  from { }
+  to {
+    transform: translate(0, 0); } }

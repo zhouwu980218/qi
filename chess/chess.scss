@@ -1,0 +1,50 @@
+@import "var";
+@import "maxin";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.chess{
+  width: $width;
+  height: $width;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.6);
+  @include positionHalf;
+  > span.heng{
+    position: absolute;
+    left: $radius;
+    width: $width - 2 * $radius;
+    height: 1px;
+    background: yellow;
+  }
+  > i.shu{
+    position: absolute;
+    top: $radius;
+    height: $width - 2 * $radius;
+    width: 1px;
+    background: aqua;
+  }
+  @for $i from 1 through 20 {
+    > span.heng:nth-of-type(#{$i}){
+      top: (2 * $i - 1) * $radius;
+      transform: translate(-2000px,0);
+      animation: fadeIn 1s ease-in-out 1 forwards;
+      animation-delay: $i*100ms;
+
+    }
+    >i.shu:nth-of-type(#{$i}){
+      left:(2 * $i - 1) * $radius;
+      transform: translate(0,-2000px);
+      animation: fadeIn 1s ease-in-out 1 forwards;
+      animation-delay: $i*100ms;
+    }
+  }
+}
+@keyframes fadeIn {
+  from{
+    //transform: translate(-2000px,0);
+  }
+  to{
+    transform: translate(0,0);
+  }
+}
